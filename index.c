@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "./CTools/ctools.h"
+#include "./CTools/ctools.c"
 
-stdEntry {
-    put(INT, 1);
-    error();
+mainEntry {
+    string x = "Hello, world!";
+    put(STRING, x);
+    noError();
 }

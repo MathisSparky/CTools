@@ -5,7 +5,7 @@
 
 #define on if
 #define elif else if
-#define stdEntry int main()
+#define mainEntry int main()
 
 typedef char *str, *string, character;
 typedef int num, number;
